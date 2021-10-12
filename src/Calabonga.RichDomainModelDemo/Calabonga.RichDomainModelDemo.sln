@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calabonga.RichDomainModelDemo.Web", "Calabonga.RichDomainModelDemo\Calabonga.RichDomainModelDemo.Web\Calabonga.RichDomainModelDemo.Web.csproj", "{57247042-C180-4C3F-B5AD-EC0DF6D52DE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calabonga.RichDomainModelDemo.Data", "Calabonga.RichDomainModelDemo\Calabonga.RichDomainModelDemo.Data\Calabonga.RichDomainModelDemo.Data.csproj", "{274EDFC7-854C-443F-9872-CE0252B14005}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calabonga.RichDomainModelDemo.Entities", "Calabonga.RichDomainModelDemo\Calabonga.RichDomainModelDemo.Entities\Calabonga.RichDomainModelDemo.Entities.csproj", "{2FAFE3AB-A744-4B37-8C8A-1CC21B34E594}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{86B8A8ED-BD0C-41DC-91D3-6FECE98C46FC}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57247042-C180-4C3F-B5AD-EC0DF6D52DE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57247042-C180-4C3F-B5AD-EC0DF6D52DE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57247042-C180-4C3F-B5AD-EC0DF6D52DE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57247042-C180-4C3F-B5AD-EC0DF6D52DE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{274EDFC7-854C-443F-9872-CE0252B14005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{274EDFC7-854C-443F-9872-CE0252B14005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{274EDFC7-854C-443F-9872-CE0252B14005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{274EDFC7-854C-443F-9872-CE0252B14005}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FAFE3AB-A744-4B37-8C8A-1CC21B34E594}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FAFE3AB-A744-4B37-8C8A-1CC21B34E594}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FAFE3AB-A744-4B37-8C8A-1CC21B34E594}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FAFE3AB-A744-4B37-8C8A-1CC21B34E594}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F102F17-D63B-405E-A9B1-07B246F841FA}
+	EndGlobalSection
+EndGlobal
