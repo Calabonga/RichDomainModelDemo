@@ -10,6 +10,14 @@
 
 [Rich Domain Model и Anemic Domain model Видео 2](https://www.youtube.com/watch?v=xzI1B_VI79U)
 
+# Boosty.to
+
+[Boosty.to/Calabonga](https://boosty.to/calabonga)
+
+[Открыть свой boosty.to](https://boosty.to/calabonga/ref)
+
+[Пожертвовать копейку](https://boosty.to/calabonga/donate)
+
 # Youtube-канал
 
 ## Описание
