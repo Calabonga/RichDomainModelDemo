@@ -1,4 +1,4 @@
-﻿using Calabonga.EntityFrameworkCore.Entities.Base;
+﻿using Calabonga.RichDomainModelDemo.Entities.Base;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;

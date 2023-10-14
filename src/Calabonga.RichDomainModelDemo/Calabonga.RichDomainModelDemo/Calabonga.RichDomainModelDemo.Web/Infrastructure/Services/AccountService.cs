@@ -10,7 +10,6 @@ using Calabonga.RichDomainModelDemo.Web.Infrastructure.EventLogs;
 using Calabonga.RichDomainModelDemo.Web.ViewModels.AccountViewModels;
 using Calabonga.UnitOfWork;
 using IdentityModel;
-using IdentityServer4.Extensions;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;

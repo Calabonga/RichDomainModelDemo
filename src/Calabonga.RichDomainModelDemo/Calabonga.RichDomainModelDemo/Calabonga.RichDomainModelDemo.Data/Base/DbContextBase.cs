@@ -1,4 +1,4 @@
-﻿using Calabonga.EntityFrameworkCore.Entities.Base;
+﻿using Calabonga.RichDomainModelDemo.Entities.Base;
 using Calabonga.UnitOfWork;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
@@ -257,8 +257,6 @@ namespace Calabonga.RichDomainModelDemo.Data.Base
                     break;
                 }
             }
-
-            builder.EnableAutoHistory(2048);
         }
     }
 }

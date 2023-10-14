@@ -1,4 +1,4 @@
-﻿using Calabonga.EntityFrameworkCore.Entities.Base;
+﻿using Calabonga.RichDomainModelDemo.Entities.Base;
 using System.Collections.Generic;
 using System.Linq;
 

@@ -1,5 +1,4 @@
 ﻿using Calabonga.Microservices.Core.Extensions;
-using IdentityServer4.Extensions;
 using System;
 using System.Security.Principal;
 

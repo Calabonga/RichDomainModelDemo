@@ -23,7 +23,7 @@ namespace Calabonga.RichDomainModelDemo.Web.Infrastructure.Mappers
                 .ForMember(x => x.FirstName, o => o.MapFrom(p => p.FirstName))
                 .ForMember(x => x.LastName, o => o.MapFrom(p => p.LastName))
                 .ForMember(x => x.PhoneNumberConfirmed, o => o.MapFrom(src => true))
-                .ForAllOtherMembers(x => x.Ignore());
+                .ForAllMembers(x => x.Ignore());
 
             CreateMap<ClaimsIdentity, UserProfileViewModel>()
                 .ForMember(x => x.Id, o => o.MapFrom(claims => ClaimsHelper.GetValue<Guid>(claims, JwtClaimTypes.Subject)))
@@ -33,7 +33,7 @@ namespace Calabonga.RichDomainModelDemo.Web.Infrastructure.Mappers
                 .ForMember(x => x.Roles, o => o.MapFrom(claims => ClaimsHelper.GetValues<string>(claims, JwtClaimTypes.Role)))
                 .ForMember(x => x.Email, o => o.MapFrom(claims => ClaimsHelper.GetValue<string>(claims, JwtClaimTypes.Name)))
                 .ForMember(x => x.PhoneNumber, o => o.MapFrom(claims => ClaimsHelper.GetValue<string>(claims, JwtClaimTypes.PhoneNumber)))
-                .ForAllOtherMembers(x => x.Ignore());
+                .ForAllMembers(x => x.Ignore());
         }
     }
 }

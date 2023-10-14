@@ -1,6 +1,7 @@
 ﻿using Calabonga.RichDomainModelDemo.Data.Base;
 using Calabonga.RichDomainModelDemo.Entities;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Design;
 
 namespace Calabonga.RichDomainModelDemo.Data
 {
@@ -13,11 +14,11 @@ namespace Calabonga.RichDomainModelDemo.Data
             : base(options) { }
 
         public DbSet<Order> Orders { get; set; }
-        
+
         public DbSet<OrderItem> OrderItems { get; set; }
-        
+
         public DbSet<Document> Documents { get; set; }
-        
+
         public DbSet<Participant> Participants { get; set; }
 
         #region System
@@ -28,5 +29,16 @@ namespace Calabonga.RichDomainModelDemo.Data
         public DbSet<MicroservicePermission> Permissions { get; set; }
 
         #endregion
+    }
+
+    public class ApplicationDbContextFactory : IDesignTimeDbContextFactory<ApplicationDbContext>
+    {
+        public ApplicationDbContext CreateDbContext(string[] args)
+        {
+            var optionsBuilder = new DbContextOptionsBuilder<ApplicationDbContext>();
+            optionsBuilder.UseNpgsql("Server=localhost,5432;Database=RichAnemicDomainDemo;User ID=postgres;Password=8jkGh47hnDw89Haq8LN2");
+
+            return new ApplicationDbContext(optionsBuilder.Options);
+        }
     }
 }

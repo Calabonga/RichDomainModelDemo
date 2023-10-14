@@ -1,4 +1,4 @@
-﻿using Calabonga.EntityFrameworkCore.Entities.Base;
+﻿using Calabonga.RichDomainModelDemo.Entities.Base;
 
 namespace Calabonga.RichDomainModelDemo.Web.ViewModels.LogViewModels
 {
